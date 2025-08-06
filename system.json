@@ -37,7 +37,7 @@
     },
     "primaryTokenAttribute":"resources.health",
     "secondaryTokenAttribute":"resources.stamina",
-    "url":"https://raw.githubusercontent.com/inputoutputgames/shadows_in_the_streetlights/refs/heads/main/",
-    "manifest":"https://raw.githubusercontent.com/inputoutputgames/shadows_in_the_streetlights/refs/heads/main/system.json",
+    "url":"https://raw.githubusercontent.com/inputoutputgames/shadows_in_the_streetlights/main/",
+    "manifest":"https://raw.githubusercontent.com/inputoutputgames/shadows_in_the_streetlights/main/system.json",
     "download":""
 }
