@@ -2,7 +2,7 @@
     "id":"shadows_in_the_streetlights",
     "title":"Shadows in the Streetlights",
     "description":"A noir-style mystery game.",
-    "version":"0.1",
+    "version":"0.0",
     "compatibility":{
         "minimum":"13",
         "verified":"13"
