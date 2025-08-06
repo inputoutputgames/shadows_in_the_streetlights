@@ -3,6 +3,10 @@
     "title":"Shadows in the Streetlights",
     "description":"A noir-style mystery game.",
     "version":"00.00",
+    "compatability":{
+        "minimum":13.346,
+        "verified":13.346
+    },
     "authors":[
         {
             "name":"Bil Blanchette",
@@ -11,16 +15,8 @@
             "discord":""
         }
     ],
-    "compatability":{
-        "minimum":13.346,
-        "verified":13.346
-    },
-    "manifest":"",
-    "url":"",
-    "download":"",
-    "esmodules":["sits.mjs"],
-    "styles":["sits.css"],
-    "packs":[],
+    "scripts":["scripts/sits.js"],
+    "styles":["styles/sits.css"],
     "languages":[
         {
             "lang":"en",
@@ -29,8 +25,19 @@
         }
 
     ],
-    "gridDistance":5,
-    "gridUnits":"ft",
-    "primaryTokenAttribute":"wounds",
-    "initiative":"2d6 + @speed"
+    "packs":[],
+    "documentTypes":{
+
+    },
+    "socket":false,
+    "initiative":"2d6",
+    "grid":{
+        "distance":1,
+        "units":"m"
+    },
+    "primaryTokenAttribute":"resources.health",
+    "secondaryTokenAttribute":"resources.stamina",
+    "url":"https://raw.githubusercontent.com/inputoutputgames/shadows_in_the_streetlights/refs/heads/main/",
+    "manifest":"https://raw.githubusercontent.com/inputoutputgames/shadows_in_the_streetlights/refs/heads/main/system.json",
+    "download":""
 }
