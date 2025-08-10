@@ -15,7 +15,7 @@
             "discord":""
         }
     ],
-    "scripts":["scripts/sits.js"],
+    "esmodules":["scripts/sits.js"],
     "styles":["styles/sits.css"],
     "languages":[
         {
@@ -26,7 +26,15 @@
     ],
     "packs":[],
     "documentTypes":{
+        "Actor":{
+            "character":{
+            }
+        },
+        "Item":{
+            "key":[
 
+            ]
+        }
     },
     "socket":false,
     "initiative":"2d6",
